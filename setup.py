@@ -9,7 +9,7 @@ read = lambda filepath: codecs.open(filepath, 'r', 'utf-8').read()
 
 setup(
     name='fabenv',
-    version='0.1',
+    version='0.1.0',
     description='Use classes to declare fabric environment tasks.',
     long_description=read(os.path.join(os.path.dirname(__file__), 'README.rst')),
     author='Matthew Tretter',
